@@ -320,8 +320,8 @@ if camlockConfig.Normal.Enabled then
         CamlockButtonGui.Position = UDim2.new(0, 10, 0, 15) 
         CamlockButtonGui.Text = "camlock"
         CamlockButtonGui.TextSize = 12 
-        CamlockButtonGui.TextColor3 = Color3.fromRGB(0, 250, 0)
-        CamlockButtonGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+        CamlockButtonGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+        CamlockButtonGui.BackgroundColor3 = Color3.fromRGB(0, 0, 250)
         CamlockButtonGui.BackgroundTransparency = 0.9
         CamlockButtonGui.TextStrokeTransparency = 0
         CamlockButtonGui.Parent = DraggableFrame
