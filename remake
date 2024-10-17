@@ -239,7 +239,7 @@ local Victim = nil
 
 function Notify(tx)
     SG:SetCore("SendNotification", {
-        Title = "Depart.haha",
+        Title = "departhahahah",
         Text = tx,
         Duration = 5
     })
@@ -318,11 +318,11 @@ if camlockConfig.Normal.Enabled then
         
         CamlockButtonGui.Size = UDim2.new(0, 100, 0, 50) 
         CamlockButtonGui.Position = UDim2.new(0, 10, 0, 15) 
-        CamlockButtonGui.Text = "camlock"
+        CamlockButtonGui.Text = "Camlock"
         CamlockButtonGui.TextSize = 12 
-        CamlockButtonGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+        CamlockButtonGui.TextColor3 = Color3.fromRGB(255, 255, 255)
         CamlockButtonGui.BackgroundColor3 = Color3.fromRGB(0, 0, 250)
-        CamlockButtonGui.BackgroundTransparency = 0.9
+        CamlockButtonGui.BackgroundTransparency = 0
         CamlockButtonGui.TextStrokeTransparency = 0
         CamlockButtonGui.Parent = DraggableFrame
 
