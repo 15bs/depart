@@ -239,7 +239,7 @@ local Victim = nil
 
 function Notify(tx)
     SG:SetCore("SendNotification", {
-        Title = "departhahahah",
+        Title = "depart.lol",
         Text = tx,
         Duration = 5
     })
@@ -343,7 +343,7 @@ if camlockConfig.Normal.Enabled then
             elseif Locked then
                 Locked = false
                 Victim = nil
-                Notify("Aimlock disabled")
+                Notify("Unlocked")
             end
         end)
     end
