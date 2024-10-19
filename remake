@@ -1,46 +1,4 @@
-getgenv().extort = {
-    ['Silent'] = {
-        Normal = {
-            SilentAimEnabled = true,
-            HitPart = "HumanoidRootPart",
-            Prediction = 0.1257724,
-            AirPrediction = 0.12,
-        },
-        FOV = {
-            SilentAimFOVSize = 150,
-            SilentAimShowFOV = false,
-        },
-        Checks = {
-            AntiGroundShots = false,
-        },
-        Resolver = {
-            Enabled = false,
-        }
-    },
-    ['CamLock'] = {
-        Normal = {
-            Enabled = true,
-            Prediction = 0.32,
-            Smoothness = 0.8,
-            AimPart = "UpperTorso",
-            ShakeValue = 0,
-            AutoPred = false,
-        },
-        Check = {
-            KOCheck = true,
-            WallCheck = true,
-        },
-        FOVSettings = {
-            FOVSize = 100,
-            ShowFOV = false,
-        },
-        ToggleMethod = {
-            CamlockTool = false,
-            CamlockButton = true,
-        },
-        EasingStyle = Enum.EasingStyle.Quad,
-    }
-}
+
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua", true))()
 
