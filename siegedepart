@@ -56,7 +56,7 @@ if getgenv().Depart["Start Up"].JumpScare then
         YzPbEkA.Parent = FdLmTjQ
         YzPbEkA.Size = UDim2.new(0.4, 0, 0.4, 0)
         YzPbEkA.Position = UDim2.new(0.3, 0, 0.3, 0)
-        YzPbEkA.Image = "rbxassetid://113276332333710"
+        YzPbEkA.Image = "rbxassetid://111480265288316"
         YzPbEkA.BackgroundTransparency = 1
         YzPbEkA.ImageTransparency = 0.5  
 
@@ -397,8 +397,8 @@ screenGui.Parent = nil
 
 local imageButton = Instance.new("ImageButton")
 imageButton.Size = UDim2.new(0, 100, 0, 100) -- 
-imageButton.Position = UDim2.new(0, 5, 0, 5) -- 
-imageButton.Image = "rbxassetid://113276332333710" --
+imageButton.Position = UDim2.new(0, -5, 0, -5) -- 
+imageButton.Image = "rbxassetid://111480265288316" --
 imageButton.BackgroundColor3 = Color3.new(0, 0, 0, 0) -- 
 imageButton.BackgroundTransparency = 1
 imageButton.Parent = screenGui
@@ -411,7 +411,7 @@ imageButton.MouseButton1Click:Connect(function()
             Plr = FindClosestPlayerByFOV()
             TargetPlayer = tostring(Plr)
             StarterGui:SetCore("SendNotification", {
-                Title = "Depart",
+                Title = "Siege",
                 Text = "unlocked "
             })
         end
@@ -421,7 +421,7 @@ imageButton.MouseButton1Click:Connect(function()
             Plr = FindClosestPlayerByFOV()
             TargetPlayer = tostring(Plr)
             StarterGui:SetCore("SendNotification", {
-                Title = "Depart",
+                Title = "Siege",
                 Text = "Locked on: " .. tostring(TargetPlayer)
             })
         end
